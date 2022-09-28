@@ -1,0 +1,50 @@
+[
+    {
+        "id": "124e13b9-2d54-4b2f-a74d-a77b362d6ead",
+        "name": "FREE HAND EXERCISE",
+        "age": "20-25",
+        "time": 20,
+        "description": "Free hand exercises are those exercises that are done without the help of any special equipment. These are also known as callisthenics. You perform these exercises without equipment and fuss, only using your bare hands. While doing free hand exercises, you rely on your body weight. These exercises are effective to strengthen and tone your muscles and internal organs, relieving stiffness and pain through hand movements.",
+        "img": "https://manmatters.com/blog/content/images/2022/01/Untitled-design--4-.png"
+    },
+    {
+        "id": "13cbc7ed-a61b-4883-9d42-82d7d8642b86",
+        "name": "FLEX BOARD PUSH UP",
+        "age": "20-25",
+        "time": 30,
+        "description": "Flex Board promotes the appropriate form to ensure that you can take more advantages from your workout and maximize the definition of your upper body. However, flex board is also known as flex board 9 in 1 as you can do 9 types of push up trough this tool.",
+        "img": "https://freaktofit.com/wp-content/uploads/2021/11/flex-board-push-up-1.jpg"
+    },
+    {
+        "id": "307f166f-1d04-4573-bc37-2f461ea9d4f7",
+        "name": "TURKISH GET-UP",
+        "age": "20-30",
+        "time": 20,
+        "description": "The Turkish get-up is one of the most functional exercises you can do. The move takes you from lying on the floor to standing upright, all while holding a kettlebell above your head. The full-body exercise is great for improving coordination and shoulder stability so that you can lift heavy things and avoid injuring the vulnerable shoulder joint. ",
+        "img": "https://media.self.com/photos/5c5d8a6afe13cc0c5fbc0768/16:9/w_623,h_350,c_limit/turkish-get-up-Amanda_026_a.jpg"
+    },
+    {
+        "id": "4bf9798f-63bc-4a83-b0c6-6a3b816fe922",
+        "name": "BENCH HOP",
+        "age": "20-25",
+        "time": 10,
+        "description": "Stand on one side of a bench or low box, and hop over it.Quickly hop back and forth for the prescribed number of reps. ",
+        "img": "https://www.muscleandfitness.com/wp-content/uploads/2017/08/bench-hop-square-2.jpg?w=1300&h=731&crop=1&quality=86&strip=all"
+    },
+    {
+        "id": "9496d72b-04ec-41f8-9bc3-0a7c9697be8e",
+        "name": "DUMBBELL",
+        "age": "20-35",
+        "time": 10,
+        "description": "When it comes to weight loss, free weights can take you far. But cranking out isolation exercises, like you might to add serious size to your arms, and taking super-long rest periods won’t maximize your returns. For that reason, the best full body dumbbell workout for weight loss is all about intensity and efficiency.",
+        "img": "https://www.mensjournal.com/wp-content/uploads/2019/10/shoulders-4.jpg?w=700&quality=86&strip=all"
+    },
+    {
+        "id": "c9d1f410-d28f-49d9-9b01-d759b5acbeea",
+        "name": "DEADLIFTS",
+        "age": "20-25",
+        "time": 20,
+        "description": "Deadlifts have many known full body benefits and are extremely crucial in the development of total-body strength, proper hip function, core strength, and spine stabilization (which can reduce the risk of lower back injuries). Since deadlifts recruit multiple muscle groups, joints, and stabilizing muscles, they also burn more calories and more body fat as compared to other exercise movements. With the proper form, the deadlift can add a ton of performance and health benefits, to your training program. Learn how deadlifts change your body for the better!",
+        "img": "https://staticc.sportskeeda.com/editor/2022/08/2ea81-16593711543902-1920.jpg"
+    }
+]

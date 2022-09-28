@@ -1,0 +1,34 @@
+.single-card {
+    width: 300px;
+    height: 530px;
+    background-color: rgba(128, 128, 128, 0.13);
+    border-radius: 8px;
+    position: relative;
+    box-shadow: 0 0 5px 0;
+}
+
+.single-card img {
+    border-radius: 15px;
+    width: 286px;
+    height: 260px;
+    padding: 7px;
+}
+
+.card-info {
+    margin-left: 5px;
+}
+
+.card-button {
+    position: absolute;
+    bottom: 0;
+    height: auto;
+    width: 100%;
+    height: 45px;
+    border-radius: 3px;
+    border: 0;
+    background-color: rgb(88, 88, 233);
+}
+
+.card-button:hover {
+    background-color: rgba(247, 146, 13, 0.671);
+}
