@@ -24,7 +24,24 @@ h1 {
 }
 
 .cart {
-    position: sticky;
     top: 10%;
     padding: 0 20px;
+}
+
+.cart p {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.break-button button {
+    border-radius: 35px;
+    background-color: rgb(88, 88, 233);
+    color: white;
+    border: none;
+    padding: 10px;
+    margin: 15px 10px;
+}
+
+.break-button button:hover {
+    background-color: lightslategray;
 }

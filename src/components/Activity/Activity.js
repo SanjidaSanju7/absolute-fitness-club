@@ -1,5 +1,7 @@
 import React from 'react';
 import './Activity.css'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+
 
 const Activity = ({ activity }) => {
     const { img, name, description, age, time } = activity;
