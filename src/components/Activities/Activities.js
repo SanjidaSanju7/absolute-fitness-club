@@ -18,7 +18,7 @@ const Activities = () => {
     return (
 
         <div className='club'>
-            <h1>Absolute Fitness Club</h1>
+            <h1> Absolute Fitness Club</h1>
             <div className='container'>
                 <div className="activities-container">
                     {
@@ -46,8 +46,12 @@ const Activities = () => {
                     <h3>Exercise Details</h3>
                     <div className="exercise-details">
                         <h3>Exercise Time: 00</h3>
-                        <h3>Break Time: </h3>
+                        <h3>Break Time: 00</h3>
                     </div>
+                    <hr />
+                    <button className='activity-btn'>
+                        <h3>Activity Completed</h3>
+                    </button>
                 </div>
             </div>
         </div>
