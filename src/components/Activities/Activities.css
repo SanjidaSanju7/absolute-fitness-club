@@ -16,6 +16,7 @@ h1 {
     color: rgb(88, 88, 233);
 }
 
+
 .cart-container {
     background-color: rgb(231, 230, 230);
     border-radius: 6px;
@@ -44,4 +45,15 @@ h1 {
 
 .break-button button:hover {
     background-color: lightslategray;
+}
+
+.exercise-details {
+    margin-left: 20px;
+}
+
+.exercise-details h3 {
+    background-color: rgb(88, 88, 233);
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
 }

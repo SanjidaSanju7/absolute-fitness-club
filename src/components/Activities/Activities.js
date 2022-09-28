@@ -5,7 +5,7 @@ import './Activities.css'
 const Activities = () => {
 
     const [activities, setActivities] = useState([]);
-    // const [cart, setCart] = useState();
+
 
     useEffect(() => {
         fetch('data.json')
@@ -17,7 +17,7 @@ const Activities = () => {
 
     return (
 
-        <div>
+        <div className='club'>
             <h1>Absolute Fitness Club</h1>
             <div className='container'>
                 <div className="activities-container">
@@ -45,7 +45,8 @@ const Activities = () => {
                     </div>
                     <h3>Exercise Details</h3>
                     <div className="exercise-details">
-
+                        <h3>Exercise Time: 00</h3>
+                        <h3>Break Time: </h3>
                     </div>
                 </div>
             </div>
