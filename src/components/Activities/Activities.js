@@ -16,7 +16,6 @@ const Activities = () => {
 
     return (
 
-
         <div>
             <h1>Absolute Fitness Club</h1>
             <div className='container'>
@@ -29,7 +28,9 @@ const Activities = () => {
                     }
                 </div>
                 <div className="cart-container">
-                    <h4>My Information</h4>
+                    <div className="cart">
+                        <h3>My Information</h3>
+                    </div>
                 </div>
             </div>
         </div>

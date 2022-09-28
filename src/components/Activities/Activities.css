@@ -15,3 +15,16 @@ h1 {
     margin-left: 20px;
     color: rgb(88, 88, 233);
 }
+
+.cart-container {
+    background-color: rgb(231, 230, 230);
+    border-radius: 6px;
+    text-align: center;
+
+}
+
+.cart {
+    position: sticky;
+    top: 10%;
+    padding: 0 20px;
+}
