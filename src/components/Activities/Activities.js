@@ -5,6 +5,7 @@ import './Activities.css'
 const Activities = () => {
 
     const [activities, setActivities] = useState([]);
+    const [count, setCount] = useState([0]);
 
 
     useEffect(() => {
@@ -13,6 +14,12 @@ const Activities = () => {
             .then(data => setActivities(data))
 
     }, []);
+
+
+    const handleAddToList = (activity) => {
+        const newCount = parseInt(count + activity.time)
+        setCount(newCount);
+    }
 
 
     return (
@@ -25,12 +32,13 @@ const Activities = () => {
                         activities.map(activity => <Activity
                             activity={activity}
                             key={activity.id}
+                            handleAddToList={handleAddToList}
                         ></Activity>)
                     }
                 </div>
                 <div className="cart-container">
                     <div className="cart">
-                        <h4>Sanjida Islam Sanju</h4>
+                        <h3>Sanjida Islam Sanju</h3>
                         <p>React.Js Developer</p>
                         <p>Age: 25</p>
                         <hr />
@@ -44,13 +52,18 @@ const Activities = () => {
                         <hr />
                     </div>
                     <h3>Exercise Details</h3>
-                    <div className="exercise-details">
-                        <h3>Exercise Time: 00</h3>
-                        <h3>Break Time: 00</h3>
+                    <div className="exercise-time">
+                        <h3>Exercise Time:</h3>
+                        <h3>{count}s</h3>
+                    </div>
+                    <div className='exercise-break'>
+                        <h3>Break Time:</h3>
+                        <h3>s</h3>
                     </div>
                     <hr />
                     <button className='activity-btn'>
                         <h3>Activity Completed</h3>
+
                     </button>
                 </div>
             </div>

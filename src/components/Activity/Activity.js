@@ -3,8 +3,9 @@ import './Activity.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 
-const Activity = ({ activity }) => {
+const Activity = ({ activity, handleAddToList }) => {
     const { img, name, description, age, time } = activity;
+
 
     return (
         <div className='single-card'>
@@ -15,7 +16,7 @@ const Activity = ({ activity }) => {
                 <p><small>Age: {age}</small></p>
                 <p><small>Time: {time}s</small></p>
             </div>
-            <button className='card-button'>Add to List</button>
+            <button onClick={() => handleAddToList(activity)} className='card-button'>Add to List</button>
         </div>
     );
 };

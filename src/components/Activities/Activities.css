@@ -49,10 +49,22 @@ h1 {
 
 .exercise-details {
     margin-left: 20px;
+    padding: 20px 0;
 }
 
-.exercise-details h3 {
-    padding: 10px 0;
+.exercise-time h3 {
+    display: inline;
+    padding: 10px;
+}
+
+.exercise-break {
+    margin: 20px 0;
+}
+
+.exercise-break h3 {
+    display: inline;
+    padding: 10px;
+
 }
 
 .activity-btn {
