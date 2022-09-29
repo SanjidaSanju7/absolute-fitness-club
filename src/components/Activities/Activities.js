@@ -2,6 +2,8 @@ import React, { useEffect, useState } from 'react';
 import Activity from '../Activity/Activity';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faDumbbell } from '@fortawesome/free-solid-svg-icons';
 import './Activities.css'
 
 const Activities = () => {
@@ -37,7 +39,7 @@ const Activities = () => {
     return (
 
         <div className='club'>
-            <h1> Absolute Fitness Club</h1>
+            <h1><FontAwesomeIcon className='icon' icon={faDumbbell}></FontAwesomeIcon>Absolute Fitness Club</h1>
             <div className='container'>
                 <div className="activities-container">
                     {
