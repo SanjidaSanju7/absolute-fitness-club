@@ -1,0 +1,14 @@
+.questions .single-question {
+    margin: 36px 16px;
+
+}
+
+.single-question {
+    text-align: justify;
+    padding: 20px;
+    background-color: aliceblue;
+    width: 75%;
+    height: auto;
+    box-shadow: 0 0 5px 0;
+    border-radius: 10px;
+}

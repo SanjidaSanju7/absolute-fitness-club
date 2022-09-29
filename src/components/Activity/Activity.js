@@ -12,7 +12,7 @@ const Activity = ({ activity, handleAddToList }) => {
             <img src={img} alt="" />
             <div className='card-info'>
                 <h3>Name: {name}</h3>
-                <p>Description:  {description.length > 80 ? description.slice(0, 80) + '....' : description}</p>
+                <p>Description:  {description.length > 100 ? description.slice(0, 100) + '....' : description}</p>
                 <p><small>Age: {age}</small></p>
                 <p><small>Time: {time}s</small></p>
             </div>
