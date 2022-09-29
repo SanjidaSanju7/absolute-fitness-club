@@ -16,6 +16,10 @@
 
 }
 
+.today-exercise {
+    padding: 0 30px;
+}
+
 h1 {
     margin-left: 20px;
     color: rgb(88, 88, 233);

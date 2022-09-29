@@ -42,8 +42,6 @@ const Activities = () => {
     }, [breakTime]);
 
 
-
-
     const notify = () => toast("Congratulatios! You are done with your activity.");
 
 
@@ -51,6 +49,7 @@ const Activities = () => {
 
         <div className='club'>
             <h1><FontAwesomeIcon className='icon' icon={faDumbbell}></FontAwesomeIcon>Absolute Fitness Club</h1>
+            <h2 className='today-exercise'>Select today's exercise</h2>
             <div className='container'>
                 <div className="activities-container">
                     {
