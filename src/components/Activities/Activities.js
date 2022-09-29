@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import Activity from '../Activity/Activity';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 import './Activities.css'
 
 const Activities = () => {
@@ -20,6 +22,10 @@ const Activities = () => {
         const newCount = parseInt(count + activity.time)
         setCount(newCount);
     }
+
+
+    const notify = () => toast("Congratulatios! You are done with your activity.");
+
 
 
     return (
@@ -61,13 +67,12 @@ const Activities = () => {
                         <h3>s</h3>
                     </div>
                     <hr />
-                    <button className='activity-btn'>
-                        <h3>Activity Completed</h3>
-
+                    <button className='activity-btn' onClick={notify}>Activity Completed
+                        <ToastContainer></ToastContainer>
                     </button>
                 </div>
             </div>
-        </div>
+        </div >
     );
 };
 
