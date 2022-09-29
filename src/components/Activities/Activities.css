@@ -94,7 +94,7 @@ h1 {
 }
 
 /* mobile */
-@media screen and (max-width:768px) {
+@media screen and (max-width:767px) {
     .activities-container {
         grid-template-columns: repeat(1, 1fr);
     }

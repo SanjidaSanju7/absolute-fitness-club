@@ -6,11 +6,13 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faDumbbell } from '@fortawesome/free-solid-svg-icons';
 import './Activities.css'
 
+
+
 const Activities = () => {
 
     const [activities, setActivities] = useState([]);
     const [count, setCount] = useState([0]);
-    const [button, buttonValue] = useState([0]);
+    const [breakTime, setBreakTime] = useState([0]);
 
 
     useEffect(() => {
@@ -21,6 +23,7 @@ const Activities = () => {
     }, []);
 
 
+
     const handleAddToList = (activity) => {
         const newCount = parseInt(count + activity.time)
         setCount(newCount);
@@ -28,9 +31,17 @@ const Activities = () => {
 
     const handleClick = (event) => {
         const getSameValue = event.target.value;
-        buttonValue(getSameValue);
+        setBreakTime(getSameValue);
 
     }
+
+
+    useEffect(() => {
+        localStorage.setItem("breakTime", JSON.stringify(breakTime));
+
+    }, [breakTime]);
+
+
 
 
     const notify = () => toast("Congratulatios! You are done with your activity.");
@@ -72,7 +83,7 @@ const Activities = () => {
                     </div>
                     <div className='exercise-break'>
                         <h3>Break Time:</h3>
-                        <h3>{button}s</h3>
+                        <h3>{breakTime}s</h3>
                     </div>
                     <hr />
                     <button className='activity-btn' onClick={notify}>Activity Completed
