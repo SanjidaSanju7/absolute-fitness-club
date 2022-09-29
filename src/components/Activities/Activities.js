@@ -8,6 +8,7 @@ const Activities = () => {
 
     const [activities, setActivities] = useState([]);
     const [count, setCount] = useState([0]);
+    const [button, buttonValue] = useState([0]);
 
 
     useEffect(() => {
@@ -23,9 +24,14 @@ const Activities = () => {
         setCount(newCount);
     }
 
+    const handleClick = (event) => {
+        const getSameValue = event.target.value;
+        buttonValue(getSameValue);
+
+    }
+
 
     const notify = () => toast("Congratulatios! You are done with your activity.");
-
 
 
     return (
@@ -51,10 +57,10 @@ const Activities = () => {
                     </div>
                     <h3>Add a Break</h3>
                     <div className='break-button'>
-                        <button>10s</button>
-                        <button>30s</button>
-                        <button>20s</button>
-                        <button>40s</button>
+                        <button value={10} onClick={handleClick}>10s</button>
+                        <button value={30} onClick={handleClick}>30s</button>
+                        <button value={20} onClick={handleClick}>20s</button>
+                        <button value={40} onClick={handleClick}>40s</button>
                         <hr />
                     </div>
                     <h3>Exercise Details</h3>
@@ -64,7 +70,7 @@ const Activities = () => {
                     </div>
                     <div className='exercise-break'>
                         <h3>Break Time:</h3>
-                        <h3>s</h3>
+                        <h3>{button}s</h3>
                     </div>
                     <hr />
                     <button className='activity-btn' onClick={notify}>Activity Completed
